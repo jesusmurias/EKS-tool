@@ -1,0 +1,1 @@
+aws ec2 describe-instances --region=eu-north-1 --profile SSO-Consumer-admin-032443079205 | jq '.Reservations[].Instances[] | .InstanceId + " --> " + .PrivateIpAddress + ", " +  .State.Name + " (" + .InstanceType + ")"'
