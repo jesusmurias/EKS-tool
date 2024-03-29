@@ -3,7 +3,6 @@
 #PROFILE="032443079205_SSO-Consumer-admin"
 export AWS_PROFILE="default"
 
-
 # Verificar si se proporcionan argumentos
 uso() {
     echo "Use: "
